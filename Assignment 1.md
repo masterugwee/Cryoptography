@@ -99,6 +99,7 @@ print("Modular multiplicative Inverse is ",mod_Inv( int(input()),int(input())))
 
 ### 2.
 ```python
+from des import DesKey
 for i in range(18446744073709551616): 
          s = str(hex(i)) 
          key = DesKey(bytes(s.zfill(16),encoding='utf8')) 
