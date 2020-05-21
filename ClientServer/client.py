@@ -42,7 +42,7 @@ def client_program():
             print("Hmac verified")
         #message = input(" -> ")  # again take input
 
-    client_socket.close()  # close the connection
+    client_socket.close()  # close the connection.
 
 
 if __name__ == '__main__':
